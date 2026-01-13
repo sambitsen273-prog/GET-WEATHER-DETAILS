@@ -1,0 +1,63 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    transition: background-image 0.5s ease-in-out; /* Smooth fade effect */
+    background-attachment: fixed; /* Keeps background still while scrolling */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    margin: 0;
+    background-blend-mode: overlay;
+    background-image: url("https://w0.peakpx.com/wallpaper/159/982/HD-wallpaper-weather-colors-art-fantasy-3d-colors-rainbow-abstract-weather.jpg");
+}
+div{
+    height: 400px;
+    width: 400px;
+    overflow: auto;
+}
+input{
+    margin-top: 10px;
+    background: transparent;
+}
+p{
+    font-size: large;
+}
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+li{
+    opacity: 1.5;
+}
+span{
+    background-color: aliceblue;
+    opacity: 0.5;
+}
+input:hover{
+    background:white;
+}
+input:focus{
+    background-color: white;
+}
+::placeholder {
+  font-weight: 700; 
+  color: black;       /* darker = more visible */
+  opacity: 1;            /* important! */
+}
+button{
+    background: transparent;
+    font-weight: 750;
+    color: black;
+}
+button:hover{
+    background-color: white;
+}
+.bottom-text {
+    text-align: center;
+    padding: 10px 0;
+}
